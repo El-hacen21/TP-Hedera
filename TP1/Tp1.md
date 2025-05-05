@@ -94,7 +94,7 @@ Le contrat sera déployé sur le réseau de test Hedera. Une adresse de déploie
  * Une fonction (view) pour récupérer la valeur actuelle.
 
 
-2. Créer un fichier de test pour Counter.sol en vous inspirant des tests de Greeter.sol.
+2. Créer un fichier de test pour Counter.sol en vous inspirant des tests de Greeter.sol. (ressource: https://hardhat.org/tutorial/testing-contracts)
 
 Vérifier que tous les tests passent correctement :
 
