@@ -49,6 +49,12 @@ mv .env.example .env
   TESTNET_OPERATOR_PRIVATE_KEY=0x8780adb0ffb2fa3da24d6df2ec6ff771203361a32e4771739fa6d20d17dfd8d4
 ```
 
+* Ensuite dans ``hardhat.config.js`` remplacer ``local`` par ``testnet``
+
+```bash
+  defaultNetwork: "testnet",
+```
+
 4. Tester le contrat existant
 Lancer les tests existants :
 
