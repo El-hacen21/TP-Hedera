@@ -43,7 +43,11 @@ mv .env.example .env
 ```
 * Créer un compte de test sur le portail Hedera: https://portal.hedera.com/dashboard
 
-* Renseigner vos identifiants (ACCOUNT_ID, PRIVATE_KEY, etc.) dans le fichier .env.
+* Modifier la ligne ci-dessous du fichier .env en remplaçant par votre ``HEX Encoded Private Key``  générée sur le portail.
+
+```bash
+  TESTNET_OPERATOR_PRIVATE_KEY=0x8780adb0ffb2fa3da24d6df2ec6ff771203361a32e4771739fa6d20d17dfd8d4
+```
 
 4. Tester le contrat existant
 Lancer les tests existants :
