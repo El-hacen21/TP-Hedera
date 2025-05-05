@@ -13,6 +13,7 @@ describe("Counter", function () {
     expect(await counter.count()).to.equal(0);
   });
 
+  
   it("should increment the count", async function () {
     await counter.increment();
     expect(await counter.count()).to.equal(1);
